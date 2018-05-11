@@ -1,11 +1,11 @@
-Year 2018, Hecl?
+Year 2018, Sleep?
 ================
 
-When searching for a scripting language to use in my Java/Kotlin projects, I've spent much time looking at different possibilities, and came across Hecl, a language that was in development in around 2009.
+When searching for a scripting language to use in my Java/Kotlin projects, I've spent much time looking at different possibilities, and came across Sleep, a language that was in development in around 2012.
 
-The key features of the language seemed attractive and I thought it would worth a try. However, I could not use it since the project structure and the building cycle were too archaic. I had to make this port in order to be able to test out the langauge.
+The key features of the language seemed attractive and I thought it would worth a try. However, I could not use it since I needed it to be mavenized. I had to make this port in order to be able to test out the langauge.
 
-This is a personal project made for fun, an attempt at reviving of the original Hecl scripting language project by David N. Welton, http://www.hecl.org/
+This is a personal project made for fun, an attempt at reviving of the original Sleep scripting language project by Raphael Mudge, http://www.sleep.dashnine.org/
 
 
 What happened?
