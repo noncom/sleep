@@ -1,4 +1,4 @@
-<project name="sleep" default="all" basedir=".">
+<project name="sleep" default="all" basedir="../../..//">
   <property name="project.src"   location="src/sleep" />
   <property name="project.build" location="bin" />
 
@@ -29,7 +29,7 @@
               destdir="docs/api"
               windowtitle="Sleep 2.1 API" 
               overview="src/overview.html">
-        <fileset dir="src" defaultexcludes="yes">
+        <fileset dir="../src" defaultexcludes="yes">
            <include name="sleep/bridges/BridgeUtilities.java" />
            <include name="sleep/bridges/KeyValuePair.java" />
            <include name="sleep/bridges/SleepClosure.java" />
@@ -63,7 +63,7 @@
 
   <target name="jar" depends="compile">
      <!-- copy the JSR223 stuff into the Sleep directory -->
-     <unzip src="jsr223/sleep-engine.jar" dest="bin" />
+     <unzip src="../jsr223/sleep-engine.jar" dest="bin" />
      <jar destfile="sleep.jar"
           basedir="bin"
           includes="**/*">
@@ -73,7 +73,7 @@
          </manifest>
 
         <!-- wow talk about jumping through hoops, whatever happened to Make? -->
-        <metainf dir="jsr223/src">
+        <metainf dir="../jsr223/src">
            <include name="services/**" />
         </metainf>
      </jar>
